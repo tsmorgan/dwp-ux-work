@@ -1,7 +1,7 @@
 var express = require('express'),
     router  = express.Router(),
     moment  = require('moment'),
-    tog     = require(__dirname + "/../lib/tog.js"),
+    tog     = require(__dirname + "/lib/tog.js"),
     _       = require('underscore');
 
 /*

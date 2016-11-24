@@ -1,8 +1,10 @@
-// Import GOV.UK elements, this will import the frontend toolkit and some base styles.
-// Take a look at elements.scss to see which files are imported.
-@import 'elements';
-// Take a look at patterns.scss to see which files are imported.
-@import 'patterns';
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/";
+
+// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
+@import 'govuk-elements';
 
 #global-header #logo {
   font-size:16px;line-height:1.8;padding-left:5px;

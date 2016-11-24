@@ -22,10 +22,10 @@
 			<h2 class="heading-medium">Project history</h2>
 			<div class="phase-history">
 				{% for phase in phase_order %}
-					{% if data["phase-history"][phase].length %}
+					{% if data.phase_history[phase].length %}
 					<div class="phase-history-item border-{{phase}} txt-{{phase}}">
 						<h3><a href="#" class="tag tag-history {{phase}}">{{phase}}</a></h3>
-						{% for item in data["phase-history"][phase] %}
+						{% for item in data.phase_history[phase] %}
 							<p>
 								{{ item.label }} &mdash; {{item.date}}
 								{% if item.report %}
@@ -51,15 +51,16 @@
 			<p><a href="{{ data.liveservice }}">Live service</a></p>
 			{% endif %}
 			<hr />
-
+			<p><a href="{{ data.prototype | default('prototype') }}">the prototype</a></p>
+			<hr />
 			<h3 class="heading-small">Senior Responsible Officer</h3>
 			<p>{{ data.sro | default('Not set') }}</p>
 
 			<h3 class="heading-small">Service Manager</h3>
 			<p>{{ data.service_man | default('Not set') }}</p>
-			
+
 			<hr />
-			
+
 			<h3 class="heading-small">Upcoming show &lsquo;n&rsquo; tells</h3>
 			<ul>
 				{% for item in data.showntells %}
@@ -71,11 +72,8 @@
 				<li></li>
 			</ul>
 
-			<!--<h3 class="heading-small">Prototype Link</h3>
-			<p><a href="{{ data.prototype | default('#') }}">{{ data.prototype | default('http://not.set/') }}</a></p>-->
-
 			<hr />
-			<p>The <a href="https://github.com/dwpdigitaltech/dwp-portfolio/blob/master/lib/projects/{{data.filename}}">content for this page</a> is open source.</p>
+			<p><a href="https://github.com/tsmorgan/ux-work-portfolio/blob/master/{{data.filename}}">Update the content of this page by submitting a pull request.</a></p>
 		</section>
 	</div>
 </main>
