@@ -1,0 +1,28 @@
+id: 32
+name: "Fit Notes"
+description: "Looking at how to get Fit Note information into the department more quickly to ensure customers receive the support they need."
+theme: "Health & Disability"
+location: "Leeds"
+phase: "alpha"
+sro: "Kenny Robertson"
+service_man: "Liz Whitefield"
+phase_history:
+	discovery: [
+		{
+			label: "Completed"
+			date: "March 2016"
+		}
+	]
+	alpha: [
+		{
+			label: "Started"
+			date: "April 2016"
+		}
+	]
+	beta: [
+		{
+			label: "Predicted start date"
+			date: "October 2016"
+		}
+	]
+priority: "Low"
