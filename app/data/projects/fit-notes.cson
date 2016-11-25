@@ -7,22 +7,44 @@ phase: "alpha"
 sro: "Kenny Robertson"
 service_man: "Liz Whitefield"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "March 2016"
-		}
-	]
-	alpha: [
-		{
-			label: "Started"
-			date: "April 2016"
-		}
-	]
-	beta: [
-		{
-			label: "Predicted start date"
-			date: "October 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "March 2016"
+    }
+  ]
+  alpha: [
+    {
+      label: "Started"
+      date: "April 2016"
+    }
+  ]
+  beta: [
+    {
+      label: "Predicted start date"
+      date: "October 2016"
+    }
+  ]
+user_needs:[
+  {
+    asa: "person who is too sick to work"
+    ineed: "some money as soon as possible"
+    so: "I can continue to live whilst I’m not earning"
+  }
+  {
+    asa: "person who is too sick to work"
+    ineed: "the government believe me when I say I can’t work"
+    so: "they will give me money"
+  }
+  {
+    asa: "person who is too sick to work"
+    ineed: "to know when my sick note runs out"
+    so: "I know when to get another"
+  }
+  {
+    asa: "GP"
+    ineed: "to do as little government admin as possible"
+    so: "I can focus on the health of my patient"
+  }
+]
 priority: "Low"

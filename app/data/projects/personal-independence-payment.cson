@@ -8,31 +8,62 @@ phase_modifier: "Private"
 sro: "Sue Moore"
 service_man: "Anita Holmes"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "January 2015"
-		}
-	]
-	alpha: [
-		{
-			label: "Completed"
-			date: "June 2015"
-		}
-	]
-	beta: [
-		{
-			label: "Started"
-			date: "July 2015"
-		}
-		{
-			label: "Private beta started"
-			date: "October 2015"
-		}
-		{
-			label: "Public beta predicted"
-			date: "TBC"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "January 2015"
+    }
+  ]
+  alpha: [
+    {
+      label: "Completed"
+      date: "June 2015"
+    }
+  ]
+  beta: [
+    {
+      label: "Started"
+      date: "July 2015"
+    }
+    {
+      label: "Private beta started"
+      date: "October 2015"
+    }
+    {
+      label: "Public beta predicted"
+      date: "TBC"
+    }
+  ]
+user_needs:
+  [
+    {
+    asa: "person with a disability or health condition"
+    ineed: "to know what PIP is and if it’s the right benefit for me"
+    so: "that I can get the money I’m entitled to and don’t waste my time and effort"
+    }
+    {
+    asa: "person with a disability or health condition"
+    ineed: "money to help with the extra costs I have because of my disability or health condition"
+    }
+    {
+    asa: "person who is applying for PIP"
+    ineed: "to know what will happen and what I’ll need to do"
+    so: "I can get the money I’m entitled to"
+    }
+    {
+    asa: "person who is applying for PIP"
+    ineed: "to be able to get help from a friend, family member or charity if I find it too difficult to do it by myself"
+    so: "that I don’t have to struggle to do it by myself"
+    }
+    {
+    asa: "person who is applying for PIP"
+    ineed: "to be able to take breaks if I become too tired, in too much pain, or need to do something else"
+    }
+    {
+      asa: "person who is applying for PIP"
+      ineed: "to tell DWP how my disability or health condition affects my life"
+      so: "that they understand why I need help"
+    }
+  ]
 priority: "Medium"
 prototype: "http://pip-v2.herokuapp.com/"

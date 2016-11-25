@@ -7,22 +7,22 @@ phase: "beta"
 sro: "Charu Gorasia"
 service_man: "Gary Wainwright"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "May 2016"
-		}
-	]
-	alpha: [
-		{
-			label: "Completed"
-			date: "July2016"
-		}
-	]
-	beta: [
-		{
-			label: "Started"
-			date: "August 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "May 2016"
+    }
+  ]
+  alpha: [
+    {
+      label: "Completed"
+      date: "July2016"
+    }
+  ]
+  beta: [
+    {
+      label: "Started"
+      date: "August 2016"
+    }
+  ]
 priority: "Medium"

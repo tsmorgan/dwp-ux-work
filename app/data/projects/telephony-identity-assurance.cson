@@ -8,10 +8,10 @@ sro: "Kenny Robertson"
 service_man: "TBC"
 facing: "internal"
 phase_history:
-	discovery: [
-		{
-			label: "Predicted start date"
-			date: "TBC"
-		}
-	]
+  discovery: [
+    {
+      label: "Predicted start date"
+      date: "TBC"
+    }
+  ]
 priority: "High"

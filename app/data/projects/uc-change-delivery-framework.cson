@@ -9,23 +9,23 @@ sro: "Neil Couling"
 service_man: "Erica Thompson"
 facing: "internal"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "May 2016"
-		}
-	]
-	alpha: [
-		{
-			label: "Completed"
-			date: "August 2016"
-		}
-	]
-	beta: [
-		{
-			label: "Started"
-			date: "August 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "May 2016"
+    }
+  ]
+  alpha: [
+    {
+      label: "Completed"
+      date: "August 2016"
+    }
+  ]
+  beta: [
+    {
+      label: "Started"
+      date: "August 2016"
+    }
+  ]
 priority: "Top"
 prototype: "https://ucddp.herokuapp.com/"

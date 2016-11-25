@@ -8,36 +8,83 @@ phase_modifier: "Public"
 sro: "Hugh Pullinger"
 service_man: "Daniel McLaughlin"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "May 2015"
-		}
-	]
-	alpha: [
-		{
-			label: "Completed"
-			date: "October 2015"
-		}
-	]
-	beta: [
-		{
-			label: "Started"
-			date: "November 2015"
-		}
-		{
-			label: "Private beta completed"
-			date: "July 2016"
-		}
-		{
-			label: "Public beta started"
-			date: "August 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "May 2015"
+    }
+  ]
+  alpha: [
+    {
+      label: "Completed"
+      date: "October 2015"
+    }
+  ]
+  beta: [
+    {
+      label: "Started"
+      date: "November 2015"
+    }
+    {
+      label: "Private beta completed"
+      date: "July 2016"
+    }
+    {
+      label: "Public beta started"
+      date: "August 2016"
+    }
+  ]
+user_needs:[
+  {
+    asa: "someone with a disability or long-term health condition"
+    ineed: "the right support"
+    so: "I can continue to work"
+  }
+  {
+    asa: "someone who can't apply for or manage my access to work grant"
+    ineed: "someone to represent me"
+    so: "I get the support I need to work"
+  }
+  {
+    asa: "person who needs support"
+    ineed: "to know the status of my grant"
+    so: "that I'll know if and when I'll get the support I need"
+  }
+  {
+    asa: "person re-applying for support"
+    ineed: "information I've already given to be reused"
+    so: "I don't waste time repeating information"
+  }
+  {
+    asa: "person with a condition my colleagues are unaware of"
+    ineed: "to get support discreetly"
+    so: "I can do my work without my condition becoming more widely known than I want"
+  }
+  {
+    asa: "person with an access to work grant"
+    ineed: "invoices for support to be paid promptly"
+    so: "I'm not out of pocket or blamed for non-payment"
+  }
+  {
+    asa: "person applying for support to work"
+    ineed: "to only give relevant information"
+    so: "I don't waste my time"
+  }
+  {
+    asa: "an employer"
+    ineed: "support for my employees with long term conditions or disabilities"
+    so: "they can do their jobs"
+  }
+  {
+  asa: "a citizen"
+  ineed: "flexibility in how I interact with Government"
+  so: "I can choose the most suitable method of communication for my personal needs and condition"
+  }
+]
 priority: "Medium"
 prototype: "http://accesstowork.herokuapp.com/application/"
 showntells: [
-	"11 October 2016, 13:00"
-	"8 November 2016, 13:00"
-	"6 December 2016, 13:00"
+  "11 October 2016, 13:00"
+  "8 November 2016, 13:00"
+  "6 December 2016, 13:00"
 ]

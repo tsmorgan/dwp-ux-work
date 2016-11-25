@@ -7,10 +7,10 @@ phase: "discovery"
 sro: "Graeme Wallace"
 service_man: "Lara Sampson"
 phase_history:
-	discovery: [
-		{
-			label: "Started"
-			date: "June 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Started"
+      date: "June 2016"
+    }
+  ]
 priority: "High"

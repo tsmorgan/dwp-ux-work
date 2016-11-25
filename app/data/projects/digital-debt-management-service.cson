@@ -7,17 +7,17 @@ phase: "alpha"
 sro: "Charu Gorasia"
 service_man: "Martin Little"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "May 2016"
-		}
-	]
-	alpha: [
-		{
-			label: "Started"
-			date: "June 2016"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "May 2016"
+    }
+  ]
+  alpha: [
+    {
+      label: "Started"
+      date: "June 2016"
+    }
+  ]
 priority: "High"
 prototype: "https://dev-dwp-debt.herokuapp.com/"

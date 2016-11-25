@@ -8,22 +8,22 @@ phase_modifier: "Public"
 sro: "Neil Couling"
 service_man: "Anthony Brigginshaw"
 phase_history:
-	discovery: [
-		{
-			label: "Completed"
-			date: "April 2013"
-		}
-	]
-	alpha: [
-		{
-			label: "Completed"
-			date: "June 2013"
-		}
-	]
-	beta: [
-		{
-			label: "Completed: Delivered digital strategic solution"
-			date: "October 2013"
-		}
-	]
+  discovery: [
+    {
+      label: "Completed"
+      date: "April 2013"
+    }
+  ]
+  alpha: [
+    {
+      label: "Completed"
+      date: "June 2013"
+    }
+  ]
+  beta: [
+    {
+      label: "Completed: Delivered digital strategic solution"
+      date: "October 2013"
+    }
+  ]
 priority: "Top"
