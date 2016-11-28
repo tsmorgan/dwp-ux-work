@@ -33,5 +33,123 @@ phase_history:
       date: "February 2017"
     }
   ]
+user_needs: [
+  {
+    asa: "person applying for Employment Support Allowance"
+    ineed: "to know at the earliest opportunity whether I am eligible or not"
+  }
+  {
+    asa: "person unable to work because of serious illness, injury or disability"
+    ineed: "I need financial support in order to survive"
+  }
+  {
+    asa: "person with a health condition"
+    ineed: "I need better information as to which benefits I can claim"
+  }
+  {
+    asa: "person with a health condition"
+    ineed: "I need a simple service"
+    so: "that I can easily claim Employment Support Allowance"
+  }
+  {
+    asa: "employer"
+    ineed: "I need more information available for Employment Support Allowance"
+    so: "that I can support my employee"
+  }
+  {
+    asa: "General Practioner"
+    ineed: "I need more information available for Employment Support Allowance"
+    so: "that I can support my patient"
+  }
+  {
+    asa: "Employment Support Allowance customer"
+    ineed: "I need to understand how a change in my circumstance could affect my claim"
+  }
+  {
+    asa: "person applying for Employment Support Allowance"
+    ineed: "I need to understand how other benefits may affect my claim"
+  }
+  {
+    asa: "person with an illness or health condition"
+    ineed: "I need a 'one stop shop'"
+    so: "that I can decide whether to claim a benefit"
+  }
+  {
+    asa: "Employment Support Allowance customer"
+    ineed: "I need a consistent service"
+  }
+  {
+    asa: "disadvantaged customer"
+    ineed: "I need assistance to make my claim for Employment Support Allowance"
+  }
+  {
+    asa: "low confidence user"
+    ineed: "I need assistance in making my claim for Employment Support Allowance"
+  }
+  {
+    asa: "person applying for Employment Support Allowance"
+    ineed: "I need to know the information I will be required to provide in order to make a claim"
+  }
+  {
+    asa: "Employment Support customer"
+    ineed: "I need support to help me get back into work"
+  }
+  {
+    asa: "General Practioner"
+    ineed: "I need a simple service with DWP"
+  }
+  {
+    asa: "person on Statutory Sick Pay (SSP)"
+    ineed: "I need to know what my options are when my SSP ends"
+  }
+  {
+    asa: "Employment Support Allowance customer"
+    ineed: "I need to understand what DWP'S expectations of me are"
+  }
+  {
+    asa: "person applying for Emplyment Support Allowance, I only want to provide information once in order to support my claim"
+  }
+  {
+    asa: "person applying for Employment Support Allowance, I want to make a claim at a time and location suitable to me"
+  }
+  {
+    asa: "person applying for Employment Support Allowance"
+    ineed: "I need to feel that my personal information is safe and secure"
+  }
+  {
+    asa: "self employed person"
+    ineed: "I need to know what what my benefit options are if I fall ill"
+  }
+  {
+    asa: "person claiming benefit"
+    ineed: "I need to understand my transition from one benefit onto Employment Support Allowance"
+  }
+  {
+    asa: "person leaving prison"
+    ineed: "I need money avalable as soon as I leave prison"
+  }
+  {
+    asa: "Employment Support Allowance customer"
+    ineed: "I need a service that is sympathetic to my health condition"
+  }
+  {
+    asa: "person in receipt of SSP"
+    ineed: "I need to know if I can get support to help me back into work rather than claim a benefit"
+  }
+  {
+    asa: "person claiming Employment Support Allowance whose health condition fluctuates"
+    ineed: "I need support as I am out of work"
+  }
+  {
+    asa: "short term employee, who has not been employed long enough to be entitled to SSP"
+    ineed: "I need to know what my options are"
+  }
+  {
+    asa: "person applying for Employment Support Allowance, I wish to commence my claim and be able to return to it to complete it"
+  }
+  {
+    asa: "person applying for Employment Support Allowance, without a landline telephone, I require a service that is fast in order to complete my application"
+  }
+]
 priority: "Top"
 prototype: "http://esa-digital.herokuapp.com"

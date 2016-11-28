@@ -11,7 +11,12 @@ $path: "/public/images/";
   @media (min-width:480px) {font-size:19px; line-height:30px}
   @media (min-width:640px) {font-size:24px; }
   @media (min-width:960px) {font-size:30px; }
+  background:none;
+  img {display:none}
+}
 
+.header-global {
+  padding:10px 0;
 }
 
 /* Little tag in header. */
@@ -210,4 +215,19 @@ $backlog-colour: $purple;
 }
 .category-heading {
   margin:45px 0 30px;
+}
+
+.user_need {
+  box-sizing: border-box;
+  float:left;
+  width:45%;
+  margin-right:5%;
+  margin-top:10px;
+  background:$govuk-blue;
+  padding:15px;
+  color:white;
+}
+
+strong {
+  font-weight:700;
 }

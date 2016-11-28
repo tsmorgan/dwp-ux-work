@@ -57,9 +57,9 @@ function indexify(data)
 }
 
 /*
-  - - - - - - - - - -  INDEX PAGE - - - - - - - - - -
+  - - - - - - - - - -  THEME INDEX PAGE - - - - - - - - - -
 */
-router.get('/', function (req, res)
+router.get('/theme/', function (req, res)
 {
   var data = _.groupBy(req.app.locals.data, 'theme');
   var new_data = indexify(data);
@@ -77,7 +77,7 @@ router.get('/', function (req, res)
 /*
   - - - - - - - - - -  LOCATION INDEX PAGE - - - - - - - - - -
 */
-router.get('/location/', function (req, res)
+router.get('/', function (req, res)
 {
   var data = _.groupBy(req.app.locals.data, 'location');
   var new_data = indexify(data);

@@ -14,7 +14,7 @@ module.exports = function (env) {
   }
   
   filters.formatDate =  function(str,format) {
-      return moment(str).format(format);
+      return moment(str,"D MMMM YYYY, H:mm").format(format);
   }
   
   filters.log =  function log(a) {
